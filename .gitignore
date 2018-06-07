@@ -42,3 +42,4 @@
 Thumbs.db
 # Andys Files#
 *.pwd
+.gitignore
