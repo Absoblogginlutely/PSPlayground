@@ -3,3 +3,6 @@ This is line 2
 And line 3 also
 Line 4 added on Friday.
 Local change made on Thursday afternoon
+Remote Change made online Thursday
+Finally Line 7 is added
+
