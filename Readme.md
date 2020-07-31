@@ -6,3 +6,8 @@ Local change made on Thursday afternoon
 Remote Change made online Thursday
 Finally Line 7 is added
 
+Branch renamed from Master to Main with
+    git branch -m master main
+    git push -u origin main
+    git push origin --delete master
+        See https://www.hanselman.com/blog/EasilyRenameYourGitDefaultBranchFromMasterToMain.aspx
