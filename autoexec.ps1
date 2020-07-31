@@ -4,6 +4,8 @@ Function get-packt {
     Write-Host "'$Book'" -ForegroundColor Yellow
     Write-host  "start https://www.packtpub.com/packt/offers/free-learning" -foregroundColor Cyan
 }
+
+#Set up transcripts into temp location and set window title to provide the name of the transcript file.
 if (test-path ("c:\temp\powershelllogs-" + $env:username + (get-date -uformat "%y%m%d") + "*.txt")) {$alreadyrun = $true}
 $transcriptlog = "c:\temp\powershelllogs-" + $env:username + (get-date -uformat "%y%m%d-%H%M") + ".txt"
 start-transcript $transcriptlog
